@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 23 18:18:39 ICT 2026</td>
+</tr>
+<tr><td>Total time:</td><td>55 seconds (55243 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='vn.edu.selenium.tests.PracticeFormPOMTest.testCompletePracticeFormFlow()'><b>testCompletePracticeFormFlow</b><br>Test class: vn.edu.selenium.tests.PracticeFormPOMTest<br>Test method: Kiểm thử form hoàn chỉnh với nhiều bộ dữ liệu (Data-Driven)<br>Parameters: Test Case 3 - Sinh viên Khác (Haryana/Karnal), Student{name='Minh Le Quang', email='minh.le@testmail.com', gender='Other', mobile='0911889900', dob='05 November,2000', subjects=[Social Studies], hobbies=[Music], address='789 Hoang Hoa Tham, Ba Dinh, Ha Noi', stateCity='Haryana Karnal'}</td>
+<td></td>
+<td>9</td>
+<td>vn.edu.selenium.tests.PracticeFormPOMTest@12b0404f</td></tr>
+<tr>
+<td title='vn.edu.selenium.tests.PracticeFormPOMTest.testCompletePracticeFormFlow()'><b>testCompletePracticeFormFlow</b><br>Test class: vn.edu.selenium.tests.PracticeFormPOMTest<br>Test method: Kiểm thử form hoàn chỉnh với nhiều bộ dữ liệu (Data-Driven)<br>Parameters: Test Case 1 - Sinh viên Nam (NCR/Delhi), Student{name='Duc Nguyen', email='duc.nguyen@testmail.com', gender='Male', mobile='0988112233', dob='10 January,2001', subjects=[Maths, Computer Science], hobbies=[Sports, Reading], address='123 Nguyen Hue, Quan 1, TP Ho Chi Minh', stateCity='NCR Delhi'}</td>
+<td></td>
+<td>30</td>
+<td>vn.edu.selenium.tests.PracticeFormPOMTest@12b0404f</td></tr>
+<tr>
+<td title='vn.edu.selenium.tests.PracticeFormPOMTest.testCompletePracticeFormFlow()'><b>testCompletePracticeFormFlow</b><br>Test class: vn.edu.selenium.tests.PracticeFormPOMTest<br>Test method: Kiểm thử form hoàn chỉnh với nhiều bộ dữ liệu (Data-Driven)<br>Parameters: Test Case 2 - Sinh viên Nữ (Uttar Pradesh/Agra), Student{name='Linh Tran Thi', email='linh.tran@testmail.com', gender='Female', mobile='0977445566', dob='25 August,2002', subjects=[Commerce, Accounting], hobbies=[Reading, Music], address='456 Le Duan, Quan Hai Chau, Da Nang', stateCity='Uttar Pradesh Agra'}</td>
+<td></td>
+<td>10</td>
+<td>vn.edu.selenium.tests.PracticeFormPOMTest@12b0404f</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoQA Practice Form Automation Suite" verbose="1">
+    <test name="Basic Requirements (YC1 - YC5)">
+        <classes>
+            <class name="vn.edu.selenium.tests.PracticeFormBasicTest"/>
+        </classes>
+    </test>
+    <test name="Page Object Model &amp; Data Driven Testing (YC6 - YC8)">
+        <classes>
+            <class name="vn.edu.selenium.tests.PracticeFormPOMTest"/>
+        </classes>
+    </test>
+</suite>

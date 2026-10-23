@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-23T18:18:39 ICT" name="Surefire suite" finished-at="2026-10-23T18:19:35 ICT" duration-ms="55243">
+    <groups>
+    </groups>
+    <test started-at="2026-10-23T18:18:39 ICT" name="Surefire test" finished-at="2026-10-23T18:19:35 ICT" duration-ms="55243">
+      <class name="vn.edu.selenium.tests.PracticeFormPOMTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:vn.edu.selenium.tests.PracticeFormPOMTest@12b0404f]" started-at="2026-10-23T18:18:39 ICT" name="setUp" finished-at="2026-10-23T18:18:41 ICT" duration-ms="1873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCompletePracticeFormFlow(java.lang.String,vn.edu.selenium.models.Student)[pri:0, instance:vn.edu.selenium.tests.PracticeFormPOMTest@12b0404f]" started-at="2026-10-23T18:18:41 ICT" name="testCompletePracticeFormFlow" description="Kiểm thử form hoàn chỉnh với nhiều bộ dữ liệu (Data-Driven)" data-provider="studentDataProvider" finished-at="2026-10-23T18:19:11 ICT" duration-ms="30134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Case 1 - Sinh viên Nam (NCR/Delhi)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Student{name='Duc Nguyen', email='duc.nguyen@testmail.com', gender='Male', mobile='0988112233', dob='10 January,2001', subjects=[Maths, Computer Science], hobbies=[Sports, Reading], address='123 Nguyen Hue, Quan 1, TP Ho Chi Minh', stateCity='NCR Delhi'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompletePracticeFormFlow -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:vn.edu.selenium.tests.PracticeFormPOMTest@12b0404f]" started-at="2026-10-23T18:19:11 ICT" name="tearDown" finished-at="2026-10-23T18:19:12 ICT" duration-ms="247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCompletePracticeFormFlow status=SUCCESS method=PracticeFormPOMTest.testCompletePracticeFormFlow(java.lang.String,vn.edu.selenium.models.Student)[pri:0, instance:vn.edu.selenium.tests.PracticeFormPOMTest@12b0404f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:vn.edu.selenium.tests.PracticeFormPOMTest@12b0404f]" started-at="2026-10-23T18:19:12 ICT" name="setUp" finished-at="2026-10-23T18:19:13 ICT" duration-ms="1016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCompletePracticeFormFlow(java.lang.String,vn.edu.selenium.models.Student)[pri:0, instance:vn.edu.selenium.tests.PracticeFormPOMTest@12b0404f]" started-at="2026-10-23T18:19:13 ICT" name="testCompletePracticeFormFlow" description="Kiểm thử form hoàn chỉnh với nhiều bộ dữ liệu (Data-Driven)" data-provider="studentDataProvider" finished-at="2026-10-23T18:19:23 ICT" duration-ms="10002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Case 2 - Sinh viên Nữ (Uttar Pradesh/Agra)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Student{name='Linh Tran Thi', email='linh.tran@testmail.com', gender='Female', mobile='0977445566', dob='25 August,2002', subjects=[Commerce, Accounting], hobbies=[Reading, Music], address='456 Le Duan, Quan Hai Chau, Da Nang', stateCity='Uttar Pradesh Agra'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompletePracticeFormFlow -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:vn.edu.selenium.tests.PracticeFormPOMTest@12b0404f]" started-at="2026-10-23T18:19:23 ICT" name="tearDown" finished-at="2026-10-23T18:19:23 ICT" duration-ms="294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCompletePracticeFormFlow status=SUCCESS method=PracticeFormPOMTest.testCompletePracticeFormFlow(java.lang.String,vn.edu.selenium.models.Student)[pri:0, instance:vn.edu.selenium.tests.PracticeFormPOMTest@12b0404f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:vn.edu.selenium.tests.PracticeFormPOMTest@12b0404f]" started-at="2026-10-23T18:19:23 ICT" name="setUp" finished-at="2026-10-23T18:19:24 ICT" duration-ms="1404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCompletePracticeFormFlow(java.lang.String,vn.edu.selenium.models.Student)[pri:0, instance:vn.edu.selenium.tests.PracticeFormPOMTest@12b0404f]" started-at="2026-10-23T18:19:24 ICT" name="testCompletePracticeFormFlow" description="Kiểm thử form hoàn chỉnh với nhiều bộ dữ liệu (Data-Driven)" data-provider="studentDataProvider" finished-at="2026-10-23T18:19:34 ICT" duration-ms="9761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Case 3 - Sinh viên Khác (Haryana/Karnal)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Student{name='Minh Le Quang', email='minh.le@testmail.com', gender='Other', mobile='0911889900', dob='05 November,2000', subjects=[Social Studies], hobbies=[Music], address='789 Hoang Hoa Tham, Ba Dinh, Ha Noi', stateCity='Haryana Karnal'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompletePracticeFormFlow -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:vn.edu.selenium.tests.PracticeFormPOMTest@12b0404f]" started-at="2026-10-23T18:19:34 ICT" name="tearDown" finished-at="2026-10-23T18:19:35 ICT" duration-ms="461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCompletePracticeFormFlow status=SUCCESS method=PracticeFormPOMTest.testCompletePracticeFormFlow(java.lang.String,vn.edu.selenium.models.Student)[pri:0, instance:vn.edu.selenium.tests.PracticeFormPOMTest@12b0404f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vn.edu.selenium.tests.PracticeFormPOMTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
